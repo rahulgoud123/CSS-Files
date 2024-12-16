@@ -1,0 +1,202 @@
+.navbar{
+    color: black;
+    display: flex;
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.section{
+    height: 100vh;
+    
+
+}
+.section .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,400px);
+    gap: 10px;
+    text-align: center;
+}.section .grid-container .grid-item .image{
+    border: none;
+}
+.btn, .btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0.5px solid black;
+    margin-top: -150px;
+    
+    
+}
+.btn:hover, .btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover, .btn8:hover{
+    color: white;
+    background-color: orangered;
+}
+.section .grid-container .grid-item .waffle{
+    text-align: start;
+    margin-left: 110px;
+    opacity: 0.5;
+}
+.section .grid-container .grid-item .creme-brulee{
+    text-align: start;
+    margin-left: 110px;
+    opacity: 0.5;
+}
+.section .grid-container .grid-item .tiramisu{
+    text-align: start;
+    margin-left: 110px;
+    opacity: 0.5;
+}
+.section .grid-container .grid-item .macaron{
+    text-align: start;
+    margin-left: 110px;
+    opacity: 0.5;
+}
+.section .grid-container .grid-item .baklava{
+    text-align: start;
+    margin-left: 110px;
+    opacity: 0.5;
+}
+.section .grid-container .grid-item .pie{
+    text-align: start;
+    margin-left: 110px;
+    opacity: 0.5;
+}
+.section .grid-container .grid-item .waffle-berries{
+    text-align: start;
+    margin-left: 110px;
+    font-weight: 700;
+}
+.section .grid-container .grid-item .vanilla-bean-creme-brulee{
+    text-align: start;
+    margin-left: 110px;
+    font-weight: 700;
+}
+.section .grid-container .grid-item .onerowthree{
+    text-align: start;
+    margin-left: 110px;
+    font-weight: 700;
+}
+.section .grid-container .grid-item .tworowone{
+    text-align: start;
+    margin-left: 110px;
+    font-weight: 700;
+}
+.section .grid-container .grid-item .tworowtwo{
+    text-align: start;
+    margin-left: 110px;
+    font-weight: 700;
+}
+.section .grid-container .grid-item .tworowthree{
+    text-align: start;
+    margin-left: 110px;
+    font-weight: 700;
+}
+.section .grid-container .grid-item .dollar{
+    text-align: start;
+    margin-left: 110px;
+    color:orangered;
+    font-weight: 800;
+}
+.chicha{
+    background-color: rgb(147, 16, 235);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 510px;
+    margin-bottom: 270px;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+.chicha:hover{
+    color: white;
+    background-color: orangered;
+}
+
+/*Card for Cart*/
+.cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+
+}
+.sweets{
+    background-color: rgba(245, 230, 230, 0.5);
+    padding: 40px;
+    max-width: 400px;
+    width:100%;
+    text-align: start;
+    border-radius: 20px;
+}
+.ss{
+    display: flex;
+    gap: 10px;
+    
+}
+.rr{
+    display: flex;
+    gap: 10px;
+    
+}
+.bb{
+    display: flex;
+    gap: 10px;
+    
+}
+.sai{
+    color: rgb(172, 10, 10);
+    margin-left: 5px;
+}
+.rahul{
+    opacity: 0.5;
+}
+p{
+    font-weight: 700;
+}
+.ll{
+    display: flex;
+    gap: 250px;
+    
+}
+.nani{
+    font-size: 1.5rem;
+}
+.ee{
+    background-color: rgba(74, 73, 124, 0.527) ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.bye{
+    background-color: orangered;
+    color:white;
+    border: none;
+    border-radius: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 65px;
+    font-size: 1rem;
+}
+label{
+    font-weight: 600;
+}
+h2{
+    color: orangered;
+    margin-bottom: 20px;
+   
+}

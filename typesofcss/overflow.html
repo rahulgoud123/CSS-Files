@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width:200px;
+        height:200px;
+        border:1px solid red;
+        margin-bottom: 50px;
+    }
+    .visible-box{
+        /*this is a default behaviour*/
+        overflow: visible;
+    }
+    .hidden-box{
+        height: 65px;
+        overflow: hidden;
+    }
+    .scroll-box{
+        overflow: scroll;
+    }
+    .auto-box{
+        overflow: auto;
+    }
+    .overflow-x{
+        overflow-x: auto;
+    }
+    .overflow-y{
+        overflow: auto;
+        height:65px;
+    }
+</style>
+<body>
+    <h3>Example of CSS overflow properties</h3>
+    <div class="container visible-box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus maxime, adipisci ab eos ullam quisquam eius fugit optio hic nam!
+    </div>
+    <div class="container hidden-box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste facilis blanditiis molestiae ullam necessitatibus impedit sunt placeat alias architecto exercitationem quidem itaque, ex reprehenderit autem fugiat voluptatum obcaecati ad distinctio? Laborum facilis nisi, voluptas dolor expedita impedit amet modi vero?
+    </div>
+    <div class="container scroll-box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit dolores similique minus quasi sed nemo ullam tempore. Ex ducimus voluptatem nostrum ipsa. Ex quae libero autem doloribus, a nulla reiciendis vero saepe animi possimus doloremque culpa cumque incidunt quam at iusto rem fuga, quasi deleniti. Voluptates eius a doloremque aperiam?
+    </div>
+    <div class="container auto-box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis porro temporibus maxime deserunt, molestiae fugiat quidem. Iure error quibusdam reiciendis reprehenderit voluptas odio aperiam eum dicta eius iusto unde a, hic adipisci asperiores ex fuga pariatur architecto at, delectus dolorem!
+    </div>
+    <div class="container overflow-x">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed suscipit eveniet? Eveniet, iure ad? Cupiditate in culpa necessitatibus dignissimos?
+    </div>
+    <div class="container overflow-y">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iure labore nostrum optio rem pariatur aperiam eos voluptate porro fugit.
+    </div>
+</body>
+</html>
